@@ -7,3 +7,41 @@
     max-width: 1312px;
     margin: 0 auto;
 }
+.box {
+    width: 1280px;
+    height: 618px;
+    background-color: #FFD43C;
+    position: relative;
+}
+.box img {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+.text_box {
+    position: absolute;
+    z-index: 1;
+    width: 612px;
+    height: 578px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.text_box h1 {
+    font-size: 38px;
+    color:#1E1E1E;
+}
+.text_box p {
+    text-align: right;
+    color: #737373;
+    font-size: 16px;
+}
+form label input {
+    width: 533px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #F3F0E7;
+    border: none;
+}
+.number_categ input{
+    
+}
