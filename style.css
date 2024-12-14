@@ -42,6 +42,48 @@ form label input {
     background-color: #F3F0E7;
     border: none;
 }
-.number_categ input{
-    
+
+header{
+    padding: 28px 40px;
+    background-color: #1E1E1E;
+    color: #F3F0E7;
+    border-radius: 15px;
+    width: 1390px;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container ul{
+    display: flex;
+    list-style: none;
+    column-gap: 43px;
+}
+.header__button{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    column-gap: 5px;
+}
+.header__button img{
+    width: 24px;
+    height: 24px;
+}
+.header__button .header__text{
+    width: 80px;
+}
+.header__number{
+    display: flex;
+    column-gap: 5px;
+}
+.header__number img{
+    width: 24px;
+    height: 24px;
+}
+.header__language{
+    display: flex;
+    column-gap: 5px;
 }
